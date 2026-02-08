@@ -21,8 +21,6 @@ docker compose up --build
 
 ### Services
 
-L’application se compose de deux services :
-
 backend
 
 API Spring Boot (Spring Data REST)
