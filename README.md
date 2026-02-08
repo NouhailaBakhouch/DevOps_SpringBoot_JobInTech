@@ -1,1 +1,47 @@
-# DevOps_SpringBoot_JobInTech
+# README
+
+## Docker Setup Guide
+
+Ce projet est une application **Full Stack** développée avec :
+- **Spring Boot (Spring Data REST)** pour le backend
+- **React + React-Bootstrap** pour le frontend
+- **Docker & Docker Compose** pour le déploiement
+
+---
+
+## Quick Start
+
+### Prérequis
+- Docker
+- Docker Compose
+
+### Lancer l’application
+
+À la racine du projet, exécutez :
+
+```bash
+docker compose up --build
+
+Services
+
+L’application se compose de deux services :
+
+backend
+
+API Spring Boot (Spring Data REST)
+
+Port : 8080
+
+frontend
+
+Application React
+
+Port : 3000
+
+Accessing the Application
+
+Frontend :
+http://localhost:3000
+
+Backend API :
+http://localhost:8080/api/voitures
