@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: ./SpringDataRest
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - HOST=0.0.0.0
+      - REACT_APP_API_URL=http://localhost:8080/api/voitures
