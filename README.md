@@ -17,12 +17,9 @@ Ce projet est une application **Full Stack** développée avec :
 
 ### Lancer l’application
 
-À la racine du projet, exécutez :
-
-```bash
 docker compose up --build
 
-Services
+### Services
 
 L’application se compose de deux services :
 
@@ -38,7 +35,7 @@ Application React
 
 Port : 3000
 
-Accessing the Application
+### Accessing the Application
 
 Frontend :
 http://localhost:3000
